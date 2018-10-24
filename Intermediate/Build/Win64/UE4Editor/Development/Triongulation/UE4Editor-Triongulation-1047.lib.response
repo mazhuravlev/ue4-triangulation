@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Triongulation-1047.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\TriongulationEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\Triongulation.cpp.obj"
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\TriongulationGameModeBase.cpp.obj"
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\Triongulation.init.gen.cpp.obj"
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\TriongulationGameModeBase.gen.cpp.obj"
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\PCLaunch.rc.res"
+/OUT:"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\UE4Editor\Development\Triongulation\UE4Editor-Triongulation-1047.lib"

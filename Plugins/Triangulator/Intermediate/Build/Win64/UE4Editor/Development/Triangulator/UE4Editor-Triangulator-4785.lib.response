@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Triangulator-4785.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Triangulation_D\Triongulation\Intermediate\Build\Win64\TriongulationEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Triangulation_D\Triongulation\Plugins\Triangulator\Intermediate\Build\Win64\UE4Editor\Development\Triangulator\Module.Triangulator.cpp.obj"
+"E:\Triangulation_D\Triongulation\Plugins\Triangulator\Intermediate\Build\Win64\UE4Editor\Development\Triangulator\Module.Triangulator.gen.cpp.obj"
+"E:\Triangulation_D\Triongulation\Plugins\Triangulator\Intermediate\Build\Win64\UE4Editor\Development\Triangulator\PCLaunch.rc.res"
+/OUT:"E:\Triangulation_D\Triongulation\Plugins\Triangulator\Intermediate\Build\Win64\UE4Editor\Development\Triangulator\UE4Editor-Triangulator-4785.lib"

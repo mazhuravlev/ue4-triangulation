@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Triongulation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4AD6C59C-AD50-4FCB-AA0D-61B20BAA723E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Triongulation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TriongulationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{53F97D54-EE99-4C59-8309-5AA4521E42AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{E5EEBCDE-738C-46C7-84BF-A7DB0A67CEB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Triangulator">
+      <UniqueIdentifier>{67A18991-F3CE-4BF1-8084-9E989C2C788B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Triangulator\Source">
+      <UniqueIdentifier>{60730A07-FC1B-4FD4-BBC6-2ABE00317A67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Triangulator\Source\Triangulator">
+      <UniqueIdentifier>{6FBE55EA-9A04-4EA7-B480-16EDEB4DEC1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Triangulator\Source\Triangulator\Triangulator.Build.cs">
+      <Filter>Plugins\Triangulator\Source\Triangulator</Filter>
+    </None>
+    <Filter Include="Plugins\Triangulator\Source\Triangulator\Private">
+      <UniqueIdentifier>{5A39FB05-6270-404C-97F1-8FD41B1E3BBA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Triangulator\Source\Triangulator\Private\Triangulator.cpp">
+      <Filter>Plugins\Triangulator\Source\Triangulator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Triangulator\Source\Triangulator\Private\TriangulatorBPLibrary.cpp">
+      <Filter>Plugins\Triangulator\Source\Triangulator\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Triangulator\Source\Triangulator\Public">
+      <UniqueIdentifier>{F7264819-A913-4389-9991-82048F91692F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Triangulator\Source\Triangulator\Public\Triangulator.h">
+      <Filter>Plugins\Triangulator\Source\Triangulator\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Triangulator\Source\Triangulator\Public\TriangulatorBPLibrary.h">
+      <Filter>Plugins\Triangulator\Source\Triangulator\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Triangulator\Triangulator.uplugin">
+      <Filter>Plugins\Triangulator</Filter>
+    </None>
+    <Filter Include="Plugins\Triangulator\Resources">
+      <UniqueIdentifier>{864EEA9B-CF35-42DC-BDBA-5341CD79EFF4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Triangulator\Resources\Icon128.png">
+      <Filter>Plugins\Triangulator\Resources</Filter>
+    </None>
+    <Filter Include="Source\Triongulation">
+      <UniqueIdentifier>{B7E8728A-C309-4662-A198-28A9EBAC7BE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Triongulation\Triongulation.Build.cs">
+      <Filter>Source\Triongulation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Triongulation\Triongulation.cpp">
+      <Filter>Source\Triongulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Triongulation\Triongulation.h">
+      <Filter>Source\Triongulation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Triongulation\TriongulationGameModeBase.cpp">
+      <Filter>Source\Triongulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Triongulation\TriongulationGameModeBase.h">
+      <Filter>Source\Triongulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Plugins\Triangulator\Source\Triangulator\Private\earcut.hpp">
+      <Filter>Plugins\Triangulator\Source\Triangulator\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
